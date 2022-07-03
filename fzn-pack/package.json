@@ -5,5 +5,9 @@
   "license": "MIT",
   "bin": {
     "fzn-pack": "./bin/fzn-pack.js"
+  },
+  "devDependencies": {
+    "tabable": "^1.0.0",
+    "tapable": "^2.2.1"
   }
 }

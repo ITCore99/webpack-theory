@@ -9,6 +9,7 @@ let config = require(path.resolve('webpack.config.js'))
 let Complier = require('../lib/Complier.js')
 // 进行编译的类
 let compiler = new Complier(config)
+compiler.hooks.entryOption.call()
 // 标识运行编译
 compiler.run()
 
