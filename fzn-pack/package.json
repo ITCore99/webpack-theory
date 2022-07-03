@@ -1,0 +1,9 @@
+{
+  "name": "fzn-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "fzn-pack": "./bin/fzn-pack.js"
+  }
+}
